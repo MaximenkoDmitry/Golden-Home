@@ -1,0 +1,89 @@
+  GOLDENHOMEPROJECT.AdminMenuForm.resources - Embedded, ContainedInManifestFile, 
+  GOLDENHOMEPROJECT.AdminMenuUserForm.resources - Embedded, ContainedInManifestFile, 
+  GOLDENHOMEPROJECT.AuthorizationForm.resources - Embedded, ContainedInManifestFile, 
+  GOLDENHOMEPROJECT.BuildingForm.resources - Embedded, ContainedInManifestFile, 
+  GOLDENHOMEPROJECT.FlatForm.resources - Embedded, ContainedInManifestFile, 
+  GOLDENHOMEPROJECT.HouseForm.resources - Embedded, ContainedInManifestFile, 
+  GOLDENHOMEPROJECT.OfficeForm.resources - Embedded, ContainedInManifestFile, 
+  GOLDENHOMEPROJECT.PlotForm.resources - Embedded, ContainedInManifestFile, 
+  GOLDENHOMEPROJECT.RoomForm.resources - Embedded, ContainedInManifestFile, 
+  GOLDENHOMEPROJECT.SplashScreen.resources - Embedded, ContainedInManifestFile, 
+  GOLDENHOMEPROJECT.UserBuildingForm.resources - Embedded, ContainedInManifestFile, 
+  GOLDENHOMEPROJECT.UserFlatForm.resources - Embedded, ContainedInManifestFile, 
+  GOLDENHOMEPROJECT.UserHouseForm.resources - Embedded, ContainedInManifestFile, 
+  GOLDENHOMEPROJECT.UserMenuForm.resources - Embedded, ContainedInManifestFile, 
+  GOLDENHOMEPROJECT.UserOfficeForm.resources - Embedded, ContainedInManifestFile, 
+  GOLDENHOMEPROJECT.UserPlotForm.resources - Embedded, ContainedInManifestFile, 
+  GOLDENHOMEPROJECT.UserRoomForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly GOLDEN_HOME_PROJECT, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class GOLDENHOMEPROJECT.PlotForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GOLDENHOMEPROJECT.AdminMenuUserForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GOLDENHOMEPROJECT.BuildingForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GOLDENHOMEPROJECT.AuthorizationForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Button buttonSigIn : Public
+Class GOLDENHOMEPROJECT.AdminMenuForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label label1 : Public
+Class GOLDENHOMEPROJECT.HouseForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GOLDENHOMEPROJECT.FlatForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GOLDENHOMEPROJECT.RoomForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GOLDENHOMEPROJECT.OfficeForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GOLDENHOMEPROJECT.UserMenuForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GOLDENHOMEPROJECT.SplashScreen: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GOLDENHOMEPROJECT.UserBuildingForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GOLDENHOMEPROJECT.UserFlatForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GOLDENHOMEPROJECT.UserHouseForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GOLDENHOMEPROJECT.UserRoomForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GOLDENHOMEPROJECT.UserOfficeForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GOLDENHOMEPROJECT.UserPlotForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

@@ -1,0 +1,16 @@
+﻿  AdminMenuForm.cpp
+  AdminMenuUserForm.cpp
+C:\Users\Dmitry\source\repos\GOLDEN_HOME_PROJECT\AdminMenuUserForm.cpp(127,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Dmitry\source\repos\GOLDEN_HOME_PROJECT\AdminMenuUserForm.cpp(251,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Dmitry\source\repos\GOLDEN_HOME_PROJECT\Functions.h(57,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Dmitry\source\repos\GOLDEN_HOME_PROJECT\AdminMenuUserForm.cpp(185): message : выполняется компиляция ссылки на экземпляр шаблон функции "void SaveData<User>(std::vector<User,std::allocator<_Ty>> &,std::string)"
+          with
+          [
+              _Ty=User
+          ]
+  AuthorizationForm.cpp
+C:\Users\Dmitry\source\repos\GOLDEN_HOME_PROJECT\AuthorizationForm.cpp(21,21): warning C4018: <: несоответствие типов со знаком и без знака
+  SplashScreen.cpp
+  Создание кода...
+  AdminMenuForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  GOLDEN_HOME_PROJECT.vcxproj -> C:\Users\Dmitry\source\repos\GOLDEN_HOME_PROJECT\Debug\GOLDEN_HOME_PROJECT.exe

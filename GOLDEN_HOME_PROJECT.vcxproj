@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{0313B0A2-3B18-4522-A752-EF68A3FAA664}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>GOLDENHOMEPROJECT</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>advapi32.lib;kernel32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdminMenuForm.cpp" />
+    <ClCompile Include="AdminMenuUserForm.cpp" />
+    <ClCompile Include="AuthorizationForm.cpp" />
+    <ClCompile Include="BuildingForm.cpp" />
+    <ClCompile Include="Flat.cpp" />
+    <ClCompile Include="FlatForm.cpp" />
+    <ClCompile Include="Functions.cpp" />
+    <ClCompile Include="House.cpp" />
+    <ClCompile Include="HouseForm.cpp" />
+    <ClCompile Include="MyException.cpp" />
+    <ClCompile Include="NonResidentialBuilding.cpp" />
+    <ClCompile Include="NotResidentialProperties.cpp" />
+    <ClCompile Include="Office.cpp" />
+    <ClCompile Include="OfficeForm.cpp" />
+    <ClCompile Include="PlotForm.cpp" />
+    <ClCompile Include="Property.cpp" />
+    <ClCompile Include="ResidentialProperty.cpp" />
+    <ClCompile Include="RoomForm.cpp" />
+    <ClCompile Include="SplashScreen.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserBuildingForm.cpp" />
+    <ClCompile Include="UserFlatForm.cpp" />
+    <ClCompile Include="UserHouseForm.cpp" />
+    <ClCompile Include="UserMenuForm.cpp" />
+    <ClCompile Include="UserOfficeForm.cpp" />
+    <ClCompile Include="UserPlotForm.cpp" />
+    <ClCompile Include="UserRoomForm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdminMenuForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AdminMenuUserForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AuthorizationForm.h">
+      <FileType>CppHeader</FileType>
+    </ClInclude>
+    <ClInclude Include="BuildingForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Flat.h" />
+    <ClInclude Include="FlatForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Functions.h" />
+    <ClInclude Include="House.h" />
+    <ClInclude Include="HouseForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyException.h" />
+    <ClInclude Include="NonResidentialBuilding.h" />
+    <ClInclude Include="NotResidentialProperties.h" />
+    <ClInclude Include="Office.h" />
+    <ClInclude Include="OfficeForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PlotForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Property.h" />
+    <ClInclude Include="ResidentialProperty.h" />
+    <ClInclude Include="RoomForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SplashScreen.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="User.h" />
+    <ClInclude Include="UserBuildingForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UserFlatForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UserHouseForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UserMenuForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UserOfficeForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UserPlotForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UserRoomForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AdminMenuForm.resx">
+      <DependentUpon>AdminMenuForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminMenuUserForm.resx">
+      <DependentUpon>AdminMenuUserForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuthorizationForm.resx">
+      <DependentUpon>AuthorizationForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuildingForm.resx">
+      <DependentUpon>BuildingForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlatForm.resx">
+      <DependentUpon>FlatForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HouseForm.resx">
+      <DependentUpon>HouseForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfficeForm.resx">
+      <DependentUpon>OfficeForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlotForm.resx">
+      <DependentUpon>PlotForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomForm.resx">
+      <DependentUpon>RoomForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserBuildingForm.resx">
+      <DependentUpon>UserBuildingForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserFlatForm.resx">
+      <DependentUpon>UserFlatForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserHouseForm.resx">
+      <DependentUpon>UserHouseForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserMenuForm.resx">
+      <DependentUpon>UserMenuForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserOfficeForm.resx">
+      <DependentUpon>UserOfficeForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserPlotForm.resx">
+      <DependentUpon>UserPlotForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserRoomForm.resx">
+      <DependentUpon>UserRoomForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="flats.txt" />
+    <Text Include="houses.txt" />
+    <Text Include="nonResidentialBuilding.txt" />
+    <Text Include="offices.txt" />
+    <Text Include="plots.txt" />
+    <Text Include="rooms.txt" />
+    <Text Include="users.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
